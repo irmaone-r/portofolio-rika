@@ -17,28 +17,29 @@
 </head>
 <body class="bg-slate-50 text-slate-900 leading-relaxed">
 
-    <!-- Navigation -->
+    <!-- Navigasi -->
     <nav class="fixed w-full z-50 px-6 py-4">
         <div class="max-w-6xl mx-auto flex justify-between items-center glass-card px-6 py-3 rounded-2xl shadow-sm">
-            <span class="font-black tracking-tighter text-xl text-slate-900">RI.</span>
+            <span class="font-black tracking-tighter text-xl text-slate-900 uppercase">Rika.</span>
             <div class="space-x-8 text-xs font-bold uppercase tracking-widest text-slate-500">
                 <a href="#about" class="hover:text-blue-600 transition-colors">Profil</a>
-                <a href="#projects" class="hover:text-blue-600 transition-colors">Proyek</a>
+                <a href="#projects" class="hover:text-blue-600 transition-colors">Sistem</a>
                 <a href="#contact" class="hover:text-blue-600 transition-colors">Kontak</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Profil Utama -->
     <header id="about" class="pt-32 pb-20 px-6">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
             <div class="relative group">
+                <!-- Foto Rika (Direct Link Drive) -->
                 <div class="w-56 h-56 rounded-[3rem] p-1 bg-gradient-to-tr from-blue-600 to-purple-600 shadow-2xl transform rotate-2 group-hover:rotate-0 transition-all duration-500">
                     <img src="https://lh3.googleusercontent.com/d/1ulYGJltus5ZZOhldQYPhk5hi71FZ0ZUi" alt="Rika Irmawan" class="w-full h-full object-cover rounded-[2.8rem] bg-slate-200 shadow-inner" onerror="this.src='https://via.placeholder.com/300x300?text=Rika+Irmawan'">
                 </div>
                 <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-2xl shadow-xl flex gap-2 items-center border border-slate-100">
                     <div class="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></div>
-                    <span class="text-[10px] font-black uppercase tracking-widest text-slate-800">Available for Projects</span>
+                    <span class="text-[10px] font-black uppercase tracking-widest text-slate-800">Ready to Automate</span>
                 </div>
             </div>
             
@@ -47,12 +48,12 @@
                     Rika <span class="gradient-text">Irmawan</span>
                 </h1>
                 <p class="text-xl text-slate-500 font-light max-w-2xl mb-8 leading-relaxed">
-                    Seorang <span class="text-slate-900 font-semibold">Inventory Architect</span> yang mengelola sistem gudang kompleks menjadi alur kerja otomatis yang elegan. Spesialis optimasi data dan manajemen operasional.
+                    Seorang <span class="text-slate-900 font-semibold italic">Inventory Architect</span> yang mengelola sistem gudang kompleks menjadi alur kerja otomatis yang elegan. Spesialis optimasi data dan manajemen operasional.
                 </p>
                 <div class="flex flex-wrap justify-center md:justify-start gap-4">
-                    <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-xl text-xs font-bold border border-blue-100 italic">#StockMaster</span>
-                    <span class="px-4 py-2 bg-purple-50 text-purple-600 rounded-xl text-xs font-bold border border-purple-100 italic">#OperationsPro</span>
-                    <span class="px-4 py-2 bg-emerald-50 text-emerald-600 rounded-xl text-xs font-bold border border-emerald-100 italic">#DataEfficiency</span>
+                    <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-xl text-xs font-bold border border-blue-100 italic">#StockAutomation</span>
+                    <span class="px-4 py-2 bg-purple-50 text-purple-600 rounded-xl text-xs font-bold border border-purple-100 italic">#GoogleAppsScript</span>
+                    <span class="px-4 py-2 bg-emerald-50 text-emerald-600 rounded-xl text-xs font-bold border border-emerald-100 italic">#DataPrecision</span>
                 </div>
             </div>
         </div>
@@ -61,70 +62,73 @@
     <!-- Main Content -->
     <main class="max-w-6xl mx-auto px-6 pb-24 space-y-32">
 
-        <!-- Showcase Proyek -->
+        <!-- Portofolio Dashboard -->
         <section id="projects" class="space-y-16">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter uppercase italic">The Systems</h2>
-                    <p class="text-slate-400 font-medium">Portfolio sistem manajemen mutasi dan kinerja yang telah saya bangun.</p>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter uppercase italic text-pink-600">The Systems</h2>
+                    <p class="text-slate-400 font-medium italic">Hasil automasi dashboard yang telah saya kembangkan.</p>
                 </div>
                 <div class="h-px bg-slate-200 flex-1 mx-8 hidden md:block"></div>
             </div>
 
             <div class="grid md:grid-cols-2 gap-12">
-                <!-- Proyek: Manajemen Stok -->
+                <!-- Proyek 1: Manajemen Stok -->
                 <div class="space-y-6">
-                    <div class="dashboard-mockup shadow-2xl card-hover group cursor-pointer overflow-hidden">
+                    <div class="dashboard-mockup shadow-2xl card-hover group cursor-pointer overflow-hidden border-blue-900/50">
                         <div class="flex items-center justify-between mb-4 border-b border-slate-700 pb-3">
                             <div class="flex gap-2">
                                 <div class="w-3 h-3 rounded-full bg-red-500"></div>
                                 <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
                                 <div class="w-3 h-3 rounded-full bg-green-500"></div>
                             </div>
-                            <span class="text-[9px] text-slate-500 font-mono italic">SISTEM MANAJEMEN STOK</span>
+                            <span class="text-[9px] text-slate-500 font-mono italic">INVENTORY ENGINE v2.0</span>
                         </div>
                         <div class="grid grid-cols-3 gap-2 mb-4">
                             <div class="bg-blue-900/40 p-3 rounded-lg border border-blue-500/30 text-center">
-                                <div class="text-[8px] text-blue-300 uppercase font-bold">Total Jenis</div>
-                                <div class="text-xl font-black text-white">20</div>
+                                <div class="text-[8px] text-blue-300 uppercase font-bold italic">Total Jenis</div>
+                                <div class="text-xl font-black text-white italic">20</div>
                             </div>
                             <div class="bg-emerald-900/40 p-3 rounded-lg border border-emerald-500/30 text-center">
-                                <div class="text-[8px] text-emerald-300 uppercase font-bold">Aman</div>
-                                <div class="text-xl font-black text-white">14</div>
+                                <div class="text-[8px] text-emerald-300 uppercase font-bold italic">Aman</div>
+                                <div class="text-xl font-black text-white italic">14</div>
                             </div>
                             <div class="bg-orange-900/40 p-3 rounded-lg border border-orange-500/30 text-center">
-                                <div class="text-[8px] text-orange-300 uppercase font-bold">Restock</div>
-                                <div class="text-xl font-black text-white">6</div>
+                                <div class="text-[8px] text-orange-300 uppercase font-bold italic">Restock</div>
+                                <div class="text-xl font-black text-white italic">6</div>
                             </div>
                         </div>
-                        <div class="bg-blue-600 py-2 rounded-lg text-center text-white text-[10px] font-black uppercase tracking-widest">
+                        <div class="bg-blue-600 py-2 rounded-lg text-center text-white text-[10px] font-black uppercase tracking-widest shadow-lg">
                             SIMPAN DATA MUTASI
                         </div>
                     </div>
                     <div>
-                        <h4 class="text-2xl font-black text-slate-800 uppercase tracking-tight">Advanced Inventory System</h4>
+                        <h4 class="text-2xl font-black text-slate-800 uppercase tracking-tight italic">Smart Inventory Engine</h4>
                         <p class="text-slate-500 text-sm mt-2 leading-relaxed">
-                            Dashboard ringkasan stok gudang dengan visualisasi distribusi produk dan tracking mutasi keluar-masuk secara real-time untuk akurasi data 100%.
+                            Dashboard pemantau stok real-time dengan tombol otomasi input data, filter stok kritis, dan laporan otomatis.
                         </p>
                     </div>
                 </div>
 
-                <!-- Proyek: Kinerja CS -->
+                <!-- Proyek 2: Finance Tracker -->
                 <div class="space-y-6">
-                    <div class="bg-gradient-to-br from-[#4d132a] to-[#2d0b19] rounded-[2.5rem] p-1 shadow-2xl card-hover h-full">
-                        <div class="bg-[#2d0b19] rounded-[2.3rem] p-8 h-full relative overflow-hidden group flex flex-col justify-center border border-pink-900/30">
-                            <i class="fa fa-headset absolute -right-4 -bottom-4 text-8xl text-white opacity-5"></i>
-                            <div class="inline-block px-3 py-1 bg-pink-700 text-white rounded-full text-[9px] font-black mb-6 uppercase tracking-widest self-start">
-                                CS Performance
+                    <div class="bg-gradient-to-br from-slate-900 to-slate-800 rounded-[2.5rem] p-1 shadow-2xl card-hover h-full">
+                        <div class="bg-slate-900 rounded-[2.3rem] p-8 h-full relative overflow-hidden group flex flex-col justify-center border border-slate-700/30">
+                            <i class="fa fa-wallet absolute -right-4 -bottom-4 text-8xl text-white opacity-5"></i>
+                            <div class="inline-block px-3 py-1 bg-emerald-500 text-white rounded-full text-[9px] font-black mb-6 uppercase tracking-widest self-start">
+                                Finance Tracking
                             </div>
-                            <h4 class="text-2xl font-black text-white mb-4 uppercase italic italic">Customer Service Report</h4>
-                            <p class="text-slate-300 text-sm mb-6 leading-relaxed">
-                                Monitoring performa tim layanan pelanggan dengan metrik AWT (Average Wait Time) dan CSAT score untuk menjaga kepuasan konsumen tetap maksimal.
+                            <h4 class="text-2xl font-black text-white mb-4 uppercase italic">Cashflow & Budgeting</h4>
+                            <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                                Sistem pencatat keuangan otomatis yang menghubungkan laporan pengeluaran harian dengan target tabungan bulanan.
                             </p>
-                            <div class="flex gap-4">
-                                <div class="flex-1 bg-[#4d132a] p-3 rounded-xl border border-pink-800/20">
-                                    <div class="text-[8px] text-pink-300 font-bold uppercase">Rating Avg</div>
-                                    <div class="text-xl font-black text-white italic">4.2 / 5.0</div>
+                            <div class="space-y-3">
+                                <div class="w-full bg-slate-800 rounded-full h-2 overflow-hidden">
+                                    <div class="bg-emerald-500 w-3/4 h-full"></div>
+                                </div>
+                                <div class="flex justify-between text-[10px] font-bold text-slate-500 uppercase italic">
+                                    <span>Alokasi Tabungan Gaji</span>
+                                    <span class="text-emerald-400">75% Tercapai</span>
                                 </div>
                             </div>
                         </div>
@@ -133,43 +137,44 @@
             </div>
         </section>
 
-        <!-- Solutions Lainnya -->
+        <!-- Solusi Bisnis Lainnya -->
         <section class="space-y-12">
-            <h2 class="text-3xl font-black text-slate-900 tracking-tighter uppercase italic italic">Business Solutions</h2>
+            <h2 class="text-3xl font-black text-slate-900 tracking-tighter uppercase italic">Extended Solutions</h2>
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Sales Tracker -->
+                <!-- CS Report -->
                 <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 card-hover group flex gap-6 items-start">
-                    <div class="w-14 h-14 bg-red-50 text-red-600 rounded-2xl flex-shrink-0 flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-all">
-                        <i class="fa fa-chart-line text-2xl"></i>
+                    <div class="w-14 h-14 bg-[#4d132a] text-white rounded-2xl flex-shrink-0 flex items-center justify-center shadow-lg shadow-pink-900/20">
+                        <i class="fa fa-headset text-2xl"></i>
                     </div>
                     <div>
-                        <h5 class="font-black text-slate-800 uppercase text-sm mb-2">Sales Tracker Analytics</h5>
-                        <p class="text-slate-500 text-xs leading-relaxed">Sistem pelacakan penjualan per wilayah dengan visualisasi metode pembayaran dan margin profit harian.</p>
+                        <h5 class="font-black text-slate-800 uppercase text-sm mb-2 italic">CS Performance Analytics</h5>
+                        <p class="text-slate-500 text-xs leading-relaxed italic">Dashboard warna marun untuk audit performa tim CS, CSAT Score, dan efisiensi respon tiket.</p>
                     </div>
                 </div>
 
-                <!-- Warehouse Audit -->
+                <!-- Sales Tracker -->
                 <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-100 card-hover group flex gap-6 items-start">
-                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex-shrink-0 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all">
-                        <i class="fa fa-boxes-stacked text-2xl"></i>
+                    <div class="w-14 h-14 bg-red-600 text-white rounded-2xl flex-shrink-0 flex items-center justify-center shadow-lg shadow-red-900/20">
+                        <i class="fa fa-chart-line text-2xl"></i>
                     </div>
                     <div>
-                        <h5 class="font-black text-slate-800 uppercase text-sm mb-2">Warehouse Audit Tool</h5>
-                        <p class="text-slate-500 text-xs leading-relaxed">Otomatisasi rekonsiliasi data antara stok fisik dan laporan sistem untuk efisiensi operasional mutlak.</p>
+                        <h5 class="font-black text-slate-800 uppercase text-sm mb-2 italic">Sales Report & Tracker</h5>
+                        <p class="text-slate-500 text-xs leading-relaxed italic">Visualisasi data penjualan regional dengan filter metode pembayaran (Cash/Online).</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="bg-slate-900 rounded-[3.5rem] p-16 text-center text-white relative overflow-hidden shadow-2xl">
+        <!-- Kontak -->
+        <section id="contact" class="bg-slate-900 rounded-[3.5rem] p-16 text-center text-white relative overflow-hidden shadow-2xl border-t-4 border-blue-600">
             <div class="relative z-10">
-                <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-6 italic">Mulai Transformasi Data Anda</h2>
-                <p class="text-slate-400 mb-12 text-lg font-light max-w-2xl mx-auto italic opacity-80">"Mengubah data menjadi aset berharga melalui sistem otomatis yang cerdas."</p>
+                <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-6 italic">Sistem Anda, Keahlian Saya</h2>
+                <p class="text-slate-400 mb-12 text-lg font-light max-w-2xl mx-auto italic opacity-80">Membangun transparansi data melalui sistem otomatis yang presisi.</p>
                 <div class="flex flex-wrap justify-center gap-6">
+                    <!-- WhatsApp Update -->
                     <a href="https://wa.me/6281214059632" target="_blank" class="px-10 py-5 bg-blue-600 text-white rounded-2xl font-black shadow-xl hover:bg-blue-500 transition-all uppercase text-xs tracking-[0.2em]">WhatsApp</a>
-                    <!-- Email sudah diupdate ke pojokgridas@gmail.com -->
-                    <a href="mailto:pojokgridas@gmail.com" class="px-10 py-5 bg-white text-slate-900 rounded-2xl font-black shadow-xl hover:bg-slate-100 transition-all uppercase text-xs tracking-[0.2em]">Email (pojokgridas)</a>
+                    <!-- Email Update -->
+                    <a href="mailto:rikairmawan03@gmail.com" class="px-10 py-5 bg-white text-slate-900 rounded-2xl font-black shadow-xl hover:bg-slate-100 transition-all uppercase text-xs tracking-[0.2em]">Email Bisnis</a>
                 </div>
             </div>
             <div class="absolute top-0 right-0 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
